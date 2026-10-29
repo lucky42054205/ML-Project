@@ -13,7 +13,7 @@ st.markdown("Provide the following details to check your heart stroke risk:")
 # Collect user input
 age = st.slider("Age", 18, 100, 40)
 sex = st.selectbox("Sex", ["M", "F"])
-chest_pain = st.selectbox("Chest Pain Type", ["ATA", "NAP", "TA", "ASY"])
+chest_pain = st.selectbox("Chest Pain Type", ["ATA","Abc", "NAP", "TA", "ASY"])
 resting_bp = st.number_input("Resting Blood Pressure (mm Hg)", 80, 200, 120)
 cholesterol = st.number_input("Cholesterol (mg/dL)", 100, 600, 200)
 fasting_bs = st.selectbox("Fasting Blood Sugar > 120 mg/dL", [0, 1])
